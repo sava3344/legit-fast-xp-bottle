@@ -1,0 +1,13 @@
+{
+  "schemaVersion": 1,
+  "id": "fastxp",
+  "version": "${version}",
+  "name": "Fast XP Bottle",
+  "description": "Throw experience bottles twice as fast (2 tick delay instead of 4) when holding right click. Only affects XP bottles.",
+  "environment": "client",
+  "mixins": ["fastxp.mixins.json"],
+  "depends": {
+    "fabricloader": ">=0.18.0",
+    "minecraft": "1.21.11"
+  }
+}
